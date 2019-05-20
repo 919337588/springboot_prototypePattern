@@ -46,7 +46,7 @@ public abstract class AbstractPayCallbackTemplate {
      * @param verifySignatureMap
      */
     @Async
-    private void payLog(Map<String, String> verifySignatureMap) {
+     void payLog(Map<String, String> verifySignatureMap) {
         log.info(">>>>>>>>>>第二步 写入payLog........");
     }
 
